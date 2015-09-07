@@ -9,7 +9,7 @@ This repository contains a sample OAuth2 client application that was implemented
  * Spring Security OAuth2 
 
 If you have been looking for some Java code that provides an example of how to do an HTTP GET request on an 
-OAuth2 protected database service that surfaces it's data as MediaType: application/json+hal, and expects 
+OAuth2 protected database service that surfaces it's data as `MediaType: application/json+hal`, and expects 
 OAuth2 tokens using the Client Credentials grant, then this is the place.
 
 ## Features
@@ -35,18 +35,18 @@ This CLI client is intended to be used in conjunction with the corresponding dat
 
 Get a copy of this repository by doing a Git clone:
 
- ``git clone https://github.com/johnpfield/oauth2-cli.git``
+ `git clone https://github.com/johnpfield/oauth2-cli.git`
 
 Assuming the OAuth2-protected service endpointi(s) have already been deployed, do the following:
 
- ``mvn spring-boot:run``
+ `mvn spring-boot:run`
 
 
 ## Configuration Options
 
 The OAuth2 details such as client ids, client secrets, the URLs and/or port numbers used to obtain and present the OAuth2 tokens, etc. can all be changed by editing 
 
- ``/src/main/resources/application.properties``.
+ `/src/main/resources/application.properties`.
 
 ## To Do List
 
