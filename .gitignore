@@ -1,0 +1,8 @@
+# Exclude target directories and temp files
+
+*~
+target/
+.classpath
+.project
+.settings
+
